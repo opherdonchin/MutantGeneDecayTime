@@ -1,0 +1,35 @@
+[project]
+authors = ["Opher Donchin <donchin@bgu.ac.il>"]
+channels = ["conda-forge"]
+name = "mutant_decay"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+arviz = "*"
+pymc = "*"
+python = ">=3.13.2,<3.14"
+ipython = "*"
+ipywidgets = "*"
+ipympl = ">=0.0.8,<0.0.9"
+graphviz = "*"
+notebook = ">=7.3.3,<8"
+matplotlib = "*"
+numpy = "*"
+numba = ">=0.61.0,<0.62"
+scipy = "*"
+pandas = "*"
+xarray = "*"
+pip = "*"
+pydot = ">=3.0.4,<4"
+nbconvert = ">=7.16.6,<8"
+jupytext = ">=1.16.7,<2"
+
+[pypi-dependencies]
+bambi = "*"
+kulprit = ">=0.3.0, <0.4"
+nutpie = ">=0.14.3, <0.15"
+preliz = "*"
+threadpoolctl = "*"
